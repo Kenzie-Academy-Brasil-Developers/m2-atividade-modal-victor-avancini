@@ -34,9 +34,21 @@
           <a href="#" target="_blank" class="form__forgot-pass"
             >Esqueceu a senha?</a
           >
-          <a href="#" target="_blank" class="form__register-link">
+          <a href="#" target="_self" class="form__register-link">
             Ainda não tem conta? Cadastre-se aqui!
           </a>
+          <dialog class="modalController">
+            <div class="modalContainer">
+              <input type="text" placeholder="Nome">
+              <input type="text" placeholder="Sobrenome">
+              <input type="email" type="tel" placeholder="Celular ou email">
+              <input type="password" placeholder="Nova senha">
+              <div class="buttons">
+                <button class="closeModal">Fechar Modal</button>
+                <button class="register">Cadastrar</button>
+              </div>
+            </div>
+          </dialog>
           <button class="form__login-btn">Entrar</button>
         </form>
       </div>
